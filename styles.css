@@ -1,9 +1,21 @@
-* {
-  margin: 0;
-  padding: 0;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-.maindiv {
+.dashboard {
   margin: auto;
+}
+.logo {
+  background-color: rgb(104, 197, 104);
+  color: white;
+}
+.sidebar {
+  position: absolute;
+  width: 100px;
+  height: 1234px;
+  left: 0px;
+  top: 0px;
+  display: grid;
 }
