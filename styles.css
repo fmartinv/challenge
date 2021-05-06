@@ -1,21 +1,35 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  font-family: 'Roboto', sans-serif;
 }
 
 .dashboard {
   margin: auto;
+  width: 1140px;
+  height: 190vh;
+  background-color: #000411;
+}
+.bignumber {
+  color: white;
 }
 .logo {
   background-color: rgb(104, 197, 104);
   color: white;
+  width: 100px;
+  height: 90px;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 19px;
 }
 .sidebar {
   position: absolute;
-  width: 100px;
+
   height: 1234px;
   left: 0px;
   top: 0px;
-  display: grid;
+
+  background-color: #131a37;
+  background-image: linear-gradient(180deg, #2e3873 0%, #131a37 100%), #131a37;
 }
