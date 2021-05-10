@@ -1,19 +1,12 @@
-*,
-*::before,
-*::after {
-  /* box-sizing: border-box; */
+html {
   font-family: 'Roboto', sans-serif;
-}
-
-.dashboard {
-  margin: auto;
-  width: 1140px;
-  height: 190vh;
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 0px;
   background-color: #000411;
 }
-.bignumber {
-  color: white;
-}
+
 .logo {
   background-color: rgb(104, 197, 104);
   color: white;
@@ -22,14 +15,20 @@
   font-size: 1.5rem;
   text-align: center;
   padding-top: 19px;
+  padding-left: 10px;
 }
 .sidebar {
   position: absolute;
-
+  max-width: 100px !important;
   height: 1234px;
   left: 0px;
   top: 0px;
-
+  box-sizing: border-box;
   background-color: #131a37;
   background-image: linear-gradient(180deg, #2e3873 0%, #131a37 100%), #131a37;
+}
+.card {
+  width: 60px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
